@@ -99,6 +99,7 @@
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    border: 10px solid black;
 }
 
 .price:hover {
