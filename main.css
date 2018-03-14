@@ -1,0 +1,140 @@
+/*Header Formatting*/
+#title_content{
+    position: absolute;
+    overflow: auto;
+    font-size: 3vh;
+    font-family: fantasy;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 17vh;
+    border: 10px solid black;
+    border-bottom: 0;
+}
+
+/*Body Formatting*/
+
+#main{
+    position: absolute;
+    min-height: 90vw;
+    left: 0;
+    right: 0;
+    top: 15vh;
+    bottom: 0;
+    border: 10px solid black;
+    border-top: 0;
+}
+
+/*Video Formatting*/
+
+#video{
+    position: absolute;
+    left: 20vw;
+    right: 0;
+    top: 3vh;
+    width: 60vw;
+    height: 40vw;
+}
+
+/*Info Formatting*/
+
+#info_1{
+    position: absolute;
+    top: 45vw;
+    left: 55vw;
+    width: 25vw;
+    height: 16vw;
+    border: 5px solid black;
+    padding: 1vw;
+}
+
+#info_1 h1{
+    top: 0;
+    font-size: 1.8vw;
+}
+
+#info_1 h3{
+    font-size: 0.8vw;
+}
+
+#info_2{
+    position: absolute;
+    top: 63vw;
+    left: 55vw;
+    width: 25vw;
+    height: 16vw;
+    border: 5px solid black;
+    padding: 1vw;
+}
+
+#info_2 h1{
+    top: 0;
+    font-size: 1.8vw;
+}
+
+#info_2 h3{
+    font-size: 0.8vw;
+}
+
+
+/*Price Table Formatting*/
+
+#price_table{
+    top: 45vw;
+    position: absolute;
+    left: 20vw;
+    width: 30vw;
+    height: 15vw;
+    font-size: 1.5vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 2vw;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Footer Formatting*/
+#footer{
+    position: absolute;
+    font-size: 0.65vw;
+    top: 93vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
