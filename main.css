@@ -1,0 +1,31 @@
+body{
+ background-color: black;
+}
+
+#background{
+ position: fixed;
+ overflow: hidden;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ width: 120em;
+ height: 55em;
+    
+ -webkit-filter: blur(2px);
+ -moz-filter: blur(2px);
+ -o-filter: blur(2px);
+ -ms-filter: blur(2px);
+ filter: blur(2px);
+}
+
+#title{
+ position: fixed;
+ font: 4em arial, sans-serif;
+ text-shadow: 4px 4px 4px #000000;
+ color: white;
+ left: 9em;
+ right: 9em;
+ top: 40%;
+}
