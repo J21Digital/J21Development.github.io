@@ -2,6 +2,15 @@ body{
  background-color: black;
 }
 
+#main{
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+}
+
 #background{
  position: fixed;
  overflow: hidden;
@@ -10,8 +19,7 @@ body{
  top: 0;
  bottom: 0;
  margin: auto;
- width: 120em;
- height: 55em;
+ width: 70vw;
     
  -webkit-filter: blur(2px);
  -moz-filter: blur(2px);
@@ -22,10 +30,11 @@ body{
 
 #title{
  position: fixed;
- font: 4em arial, sans-serif;
+ font: 4vw arial, sans-serif;
  text-shadow: 4px 4px 4px #000000;
  color: white;
- left: 9em;
- right: 9em;
- top: 40%;
+ padding-left: 36%;
+ padding-top: 46vh;
+ margin-top: auto;
+ margin-bottom: auto;
 }
