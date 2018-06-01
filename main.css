@@ -1,0 +1,46 @@
+body{
+ background-color: black;
+}
+
+#main{
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+}
+
+#background{
+ position: fixed;
+ overflow: hidden;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ width: 70vw;
+    
+}
+
+#title{
+ position: fixed;
+ font: 4vw arial, sans-serif;
+ text-shadow: 2px 2px 4px #000000;
+ color: white;
+ padding-left: 36%;
+ padding-top: 46vh;
+ margin-top: auto;
+ margin-bottom: auto;
+}
+
+#secondary{
+ position: fixed;
+ font: 1.99vw arial, sans-serif;
+ text-shadow: 2px 2px 4px #000000;
+ color: white;
+ padding-left: 39%;
+ padding-top: 54vh;
+ margin-top: auto;
+ margin-bottom: auto;
+}
